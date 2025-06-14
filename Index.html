@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Blog</title>
+  <link rel="stylesheet" href="./Style/Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Sticky Header -->
+  <header class="sticky-header">
+    <nav class="navbar">
+      <div class="logo">YourBlog</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="header-actions">
+        <input type="search" placeholder="Search posts..." class="search-bar">
+        <button class="purchase-btn" onclick="window.location.href='/product'">Buy Now</button>
+      </div>
+    </nav>
+  </header>
 
+  <!-- Blog Posts Grid -->
+  <main class="blog-container">
+    <article class="blog-card">
+      <img src="assets/post1.jpg" alt="Blog Post Image" class="card-image">
+      <div class="card-content">
+        <h3 class="post-title">How to Build a Knowledge Graph</h3>
+        <p class="post-meta">June 14, 2025 · by <span class="author">Jane Doe</span></p>
+        <p class="post-excerpt">Learn how to structure data for AI applications using knowledge graphs...</p>
+      </div>
+    </article>
+
+    <!-- Repeat for more cards -->
+    <article class="blog-card">
+      <img src="assets/post2.jpg" alt="Blog Post Image" class="card-image">
+      <div class="card-content">
+        <h3 class="post-title">Modern CSS with Flexbox</h3>
+        <p class="post-meta">June 10, 2025 · by <span class="author">John Smith</span></p>
+        <p class="post-excerpt">A deep dive into responsive layouts using Flexbox and Grid...</p>
+      </div>
+    </article>
+  </main>
+
+  <!-- Newsletter Signup -->
+  <section class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter for the latest posts.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://linkedin.com" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+      <a href="https://instagram.com" target="_blank"><img src="assets/instagram.svg" alt="Instagram"></a>
+    </div>
+    <p>&copy; 2025 YourBlog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
